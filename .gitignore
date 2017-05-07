@@ -89,3 +89,5 @@ ENV/
 .ropeproject
 
 .idea/
+
+local_settings.py
