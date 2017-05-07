@@ -7,6 +7,10 @@ Create a virtualenv with python 3.5:
 
     $ virtualenv capueccomerce
 
+Set virtualenv ambiente:
+
+    $ source  ./capueccomerce/bin/activate or source  capueccomerce/bin/activate
+
 
 Install requirements:
 
