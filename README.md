@@ -27,7 +27,7 @@ Tests
 
 To run the test suite, execute: ::
 
-   $ ~/.manage.py tests
+    $  ~/.manage.py tests
 
 
 Deploy
