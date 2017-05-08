@@ -1,6 +1,6 @@
 from django.conf.urls import url
 
-from catalog.views import product_list, category, product
+from catalog.views import category, product, product_list
 
 urlpatterns = [
     url(r'^$', product_list, name='product_list'),
