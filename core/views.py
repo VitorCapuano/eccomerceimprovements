@@ -1,20 +1,14 @@
-from django.http import HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
+from catalog.models import Category, Product
 
 
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'index.html', {
+        'categories': Category.objects.all()
+    })
 
 
 def contact(request):
     return render(request, 'contact.html')
-
-
-def product_list(request):
-    return render(request, 'products_list.html')
-
-
-def product(request):
-    return render(request, 'product.html')
