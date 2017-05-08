@@ -29,11 +29,3 @@ To run the test suite, execute: ::
 
     $  ~/.manage.py tests
 
-
-Deploy
-------
-
-To deploy on heroku: ::
-
-    $ push origin heroku yoururlheroku
-
